@@ -1,0 +1,186 @@
+[
+    {
+        "enonce": "Quelle technologie utilis\u00e9e pour cr\u00e9er une application mobile ?",
+        "points": "3",
+        "type": "text",
+        "reponses": [
+            "Pour cr\u00e9er une application mobile, il faut alors utiliser le langage de programmation compatible avec le syst\u00e8me d\u2019exploitation (OS) souhait\u00e9."
+        ],
+        "reponsesVraies": [
+            "Pour cr\u00e9er une application mobile, il faut alors utiliser le langage de programmation compatible avec le syst\u00e8me d\u2019exploitation (OS) souhait\u00e9."
+        ]
+    },
+    {
+        "enonce": " Le langage JavaScript est un langage ?",
+        "points": "4",
+        "type": "qcm",
+        "reponses": [
+            "compil\u00e9 par le serveur",
+            "compil\u00e9 par le navigateur",
+            " interpr\u00e9t\u00e9 par le navigateur"
+        ],
+        "reponsesVraies": [
+            " interpr\u00e9t\u00e9 par le navigateur"
+        ]
+    },
+    {
+        "enonce": "est-ce que json est un langage de programmation ?",
+        "points": "4",
+        "type": "qcs",
+        "reponses": [
+            "oui",
+            "non"
+        ],
+        "reponsesVraies": [
+            "non"
+        ]
+    },
+    {
+        "enonce": "D'o\u00f9 vient le coronavirus ?",
+        "points": "5",
+        "type": "qcs",
+        "reponses": [
+            "FRANCE",
+            "CHINE",
+            "USA"
+        ],
+        "reponsesVraies": [
+            "CHINE"
+        ]
+    },
+    {
+        "enonce": "LES LANGAGES DU WEB ?",
+        "points": "3",
+        "type": "qcm",
+        "reponses": [
+            "R",
+            "HTML",
+            "JAVA"
+        ],
+        "reponsesVraies": [
+            "HTML",
+            "JAVA"
+        ]
+    },
+    {
+        "enonce": "Le langage HTML est un langage :",
+        "points": "2",
+        "type": "qcs",
+        "reponses": [
+            "de programmation classique (Pascal,C...)",
+            " qui permet de structurer une page Web"
+        ],
+        "reponsesVraies": [
+            " qui permet de structurer une page Web"
+        ]
+    },
+    {
+        "enonce": "L'\u00e9criture <!-- \u00e0 conserver --> identifie :",
+        "points": "3",
+        "type": "qcs",
+        "reponses": [
+            "la fin du code",
+            "une remarque, un commentaire",
+            " un fichier"
+        ],
+        "reponsesVraies": [
+            "une remarque, un commentaire"
+        ]
+    },
+    {
+        "enonce": "L'\u00e9criture #<strong>Introduction <\/strong> signifie :",
+        "points": "3",
+        "type": "qcs",
+        "reponses": [
+            "mettre en \u00e9vidence le mot Introduction",
+            " souligner le mot Introduction",
+            "surligner le mot Introduction "
+        ],
+        "reponsesVraies": [
+            "mettre en \u00e9vidence le mot Introduction"
+        ]
+    },
+    {
+        "enonce": "Qu'est-ce qu'un pourriel ?",
+        "points": "5",
+        "type": "qcm",
+        "reponses": [
+            "Un spam",
+            "photo",
+            "corbeille"
+        ],
+        "reponsesVraies": [
+            "Un spam"
+        ]
+    },
+    {
+        "enonce": "Pourquoi les filles aiment trop la vie ?",
+        "points": "3",
+        "type": "text",
+        "reponses": [
+            "car elle croient que c'est le seule moyens pour se montrer belle."
+        ],
+        "reponsesVraies": [
+            "car elle croient que c'est le seule moyens pour se montrer belle."
+        ]
+    },
+    {
+        "enonce": "Qui a remport\u00e9 le ballon d'or africain en 2019 ?",
+        "points": "5",
+        "type": "qcs",
+        "reponses": [
+            "mouhamed salah",
+            "sadio man\u00e9"
+        ],
+        "reponsesVraies": [
+            "sadio man\u00e9"
+        ]
+    },
+    {
+        "enonce": "qui a rempoort\u00e9 plus de league des champions ?",
+        "points": "3",
+        "type": "qcs",
+        "reponses": [
+            "CR7",
+            "MESSI"
+        ],
+        "reponsesVraies": [
+            "CR7"
+        ]
+    },
+    {
+        "enonce": "usain bolt \u00e7a te fait penser \u00e0 quoi ?",
+        "points": "5",
+        "type": "text",
+        "reponses": [
+            "le recordman du 100m"
+        ],
+        "reponsesVraies": [
+            "le recordman du 100m"
+        ]
+    },
+    {
+        "enonce": "Une Propri\u00e9t\u00e9 d\u00e9signe :",
+        "points": "4",
+        "type": "qcs",
+        "reponses": [
+            "une fonction",
+            "un \u00e9l\u00e9ment qui influence une caract\u00e9ristique d'un objet",
+            "une m\u00e9thode"
+        ],
+        "reponsesVraies": [
+            "un \u00e9l\u00e9ment qui influence une caract\u00e9ristique d'un objet"
+        ]
+    },
+    {
+        "enonce": " BILGATES vous faites penser \u00e0 quoi ?",
+        "points": "4",
+        "type": "text",
+        "reponses": [
+            "MICROSOFT"
+        ],
+        "reponsesVraies": [
+            "MICROSOFT"
+        ]
+    }
+]
