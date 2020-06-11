@@ -1,62 +1,44 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MINI_PROJET_QUIZZ</title>
-    <link rel="stylesheet" href="./public/css/quizz.css">
-</head>
-<body>
-    <div class="header">
-    <div class="logo"></div>
-    <div class="header-text">Le plaisir de jouer</div>
-     </div>
-    <div class="content">
+<?php 
+             session_start();
+            //  require_once('traitement/fonction.php');
+?>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>weuzy_QUIZZ_SA</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS DU PROJET -->
+    <link rel="stylesheet" href="public/css/general.css">
+  </head>
+
+  <body>
+    <div class="container-fluid" id="heading" >
+      <header class="row p-0 ">
+            <div class="col-2 " id="logo">
+            </div>
+            <div class="col-8  text-center d-flex justify-content-center align-items-center">
+            <p class="titre">bienvenu au jeu de quizz</p>
+            </div>
+            <div class="col-2 ">
+            </div>
+      </header>
+      <div id="content" class="content">
         <?php
-        session_start();
-            require_once("./traitement/fonction.php");
+            // require_once('pages/connexion.php');
 
-
-
-            if(isset($_GET['lien'])){
-                // *accueil* est le lien de la page Admin
-                // *jeux* est le lien de la page où l'utilisateur va jouer 
-                // *inscription* est le lien de la page où l'utilisateur va s'inscrire pour jouer
-                switch($_GET['lien']){
-                    case "accueil":
-                        // titre principal de la page Admin
-                        $texte = "créer et paramètrer vos quizz";
-                        // titre de la partie inscrire pour la création compte Admin
-                        $title = "Pour proposer vos quizz";
-                        $nomAvatar = "Avatar Admin";
-                        // style de la partie création compte Admin de la page admin.php
-                        $top_in = "6%";
-                        $padding_in = "20px";
-                          require_once("./pages/admin.php");  
-                    break;
-                    case "jeux":
-                        // titre principal de la page jeux
-                        $texte = "BIENVENUE SUR LA PLATEFORME DE JEU DE QUIZZ<br><br>JOUER ET TESTER VOTRE NIVEAU DE CULTURE GENERALE";
-                          require_once("./pages/jeux.php");
-                    break;
-                    case "inscription":
-                        // titre de la partie inscrire pour la création compte Joueur
-                        $title = "Pour tester votre niveau de culture générale";
-                        $nomAvatar = "Avatar du joueur";
-                        // style de la partie création compte Joueur de la page Inscription.php
-                        $right_in = "-28%";
-                          require_once("./pages/Inscription.php");
-                    break; 
-                } 
-            }else {
-                if (isset($_GET['statut']) && $_GET['statut']==="logout") {
-                    deconnexion();
-                }
-                require_once("./pages/connexion.php");
-            }
-           
         ?>
+      </div>
     </div>
-    
-</body>
+   
+    <!-- jQuery first,  bootpag -->
+    <script src="public/js/jquery.js"></script>
+    <script src="public/js/bootpag.js"></script>
+    <!-- Optional JavaScript -->
+    <script src="public/js/load.js"></script>   
+  </body>
+  
 </html>
